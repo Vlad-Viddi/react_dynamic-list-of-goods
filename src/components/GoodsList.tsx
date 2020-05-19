@@ -1,11 +1,11 @@
 import React from 'react';
 import { Good } from './TypeDefinitions';
 
-type GoodsListProps = {
+type Props = {
   goods: Good[];
 };
 
-export const GoodsList: React.FC<GoodsListProps> = ({ goods }) => {
+export const GoodsList: React.FC<Props> = ({ goods }) => {
   return (
     <>
       <ul>
